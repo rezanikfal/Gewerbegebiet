@@ -1,0 +1,58 @@
+.mapLoader {
+  z-index: 800;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.example-card {
+  position: absolute;
+  z-index: 900;
+  width: 300px;
+  top: 20px;
+  left: 20px;
+}
+
+.example-header-image {
+  background-image: url("../assets/Keller.JPG");
+  background-size: cover;
+  margin-right: -20px;
+}
+
+.closeModal {
+  position: absolute;
+  top: 0;
+  right: 12px;
+  font-size: 30px;
+  cursor: default;
+}
+
+.closeModal:hover {
+  background-color: bisque;
+}
+
+.chkBoxContent {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 20px;
+}
+
+.cardContent{
+  margin: 10px 10px;
+}
+
+.zoomExtend{
+  margin-top: 15px;
+  padding: 6px 69px;
+}
+
+.threeD{
+  margin-top: 15px;
+  padding: 6px 25px;
+}
+
+.Rotate{
+  margin-top: 15px;
+  padding: 6px 27px;
+}
